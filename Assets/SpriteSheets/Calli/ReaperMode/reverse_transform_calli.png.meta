@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 7b2d9ccd87af02240a50a4f2adbf97f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3655142990114069118
+    second: reverse_transform_calli_0
+  - first:
+      213: -1143261586665786183
+    second: reverse_transform_calli_1
+  - first:
+      213: -3808719025034596123
+    second: reverse_transform_calli_2
+  - first:
+      213: -8659657811982129233
+    second: reverse_transform_calli_3
+  - first:
+      213: -8478484375787048538
+    second: reverse_transform_calli_4
+  - first:
+      213: -7766848194472935606
+    second: reverse_transform_calli_5
+  - first:
+      213: -6981094404919814079
+    second: reverse_transform_calli_6
+  - first:
+      213: 3120411677842528946
+    second: reverse_transform_calli_7
+  - first:
+      213: -3082274441528163581
+    second: reverse_transform_calli_8
+  - first:
+      213: -8996805032091093327
+    second: reverse_transform_calli_9
+  - first:
+      213: 1835621393986818737
+    second: reverse_transform_calli_10
+  - first:
+      213: 3325503633772308003
+    second: reverse_transform_calli_11
+  - first:
+      213: -8256905172805717524
+    second: reverse_transform_calli_12
+  - first:
+      213: -7176846224178992078
+    second: reverse_transform_calli_13
+  - first:
+      213: -2531176904012248395
+    second: reverse_transform_calli_14
+  - first:
+      213: 8006810792977259051
+    second: reverse_transform_calli_15
+  - first:
+      213: -3666966223668658063
+    second: reverse_transform_calli_16
+  - first:
+      213: 3290646810769799580
+    second: reverse_transform_calli_17
+  - first:
+      213: -8938015934060952321
+    second: reverse_transform_calli_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reverse_transform_calli_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 43
+        width: 168
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a12090f2da9b230800000000000000
+      internalID: 3655142990114069118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 12
+        width: 198
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4bf69e4a15220f0800000000000000
+      internalID: -1143261586665786183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 12
+        width: 196
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e07a87e936b42bc0800000000000000
+      internalID: -3808719025034596123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 10
+        width: 192
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa76e50d917b2d780800000000000000
+      internalID: -8659657811982129233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_4
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 10
+        width: 190
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a17383916f565a80800000000000000
+      internalID: -8478484375787048538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 12
+        width: 198
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f7e08b7bc963490800000000000000
+      internalID: -7766848194472935606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_6
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 12
+        width: 197
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148994b40ab2e1f90800000000000000
+      internalID: -6981094404919814079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_7
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 10
+        width: 192
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad8ca63eded4b20800000000000000
+      internalID: 3120411677842528946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_8
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 10
+        width: 192
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303c27cd9bf8935d0800000000000000
+      internalID: -3082274441528163581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_9
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 12
+        width: 198
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b673cc8d7de42380800000000000000
+      internalID: -8996805032091093327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_10
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 12
+        width: 198
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b211baaeef697910800000000000000
+      internalID: 1835621393986818737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_11
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 0
+        width: 192
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e4468fef862e20800000000000000
+      internalID: 3325503633772308003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_12
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 0
+        width: 192
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce174d60e74996d80800000000000000
+      internalID: -8256905172805717524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_13
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1
+        width: 192
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c25383268b66c90800000000000000
+      internalID: -7176846224178992078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_14
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 1
+        width: 193
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4dac34047fdcd0800000000000000
+      internalID: -2531176904012248395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_15
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 1
+        width: 192
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5c2b8ef7ed1f60800000000000000
+      internalID: 8006810792977259051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_16
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 1
+        width: 192
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170cfd2e5a15c1dc0800000000000000
+      internalID: -3666966223668658063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_17
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 1
+        width: 192
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99b43df6d9baad20800000000000000
+      internalID: 3290646810769799580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reverse_transform_calli_18
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 0
+        width: 192
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff404851dd9c5f380800000000000000
+      internalID: -8938015934060952321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      reverse_transform_calli_17: 3290646810769799580
+      reverse_transform_calli_18: -8938015934060952321
+      reverse_transform_calli_5: -7766848194472935606
+      reverse_transform_calli_7: 3120411677842528946
+      reverse_transform_calli_13: -7176846224178992078
+      reverse_transform_calli_1: -1143261586665786183
+      reverse_transform_calli_12: -8256905172805717524
+      reverse_transform_calli_9: -8996805032091093327
+      reverse_transform_calli_8: -3082274441528163581
+      reverse_transform_calli_3: -8659657811982129233
+      reverse_transform_calli_16: -3666966223668658063
+      reverse_transform_calli_14: -2531176904012248395
+      reverse_transform_calli_2: -3808719025034596123
+      reverse_transform_calli_10: 1835621393986818737
+      reverse_transform_calli_4: -8478484375787048538
+      reverse_transform_calli_15: 8006810792977259051
+      reverse_transform_calli_6: -6981094404919814079
+      reverse_transform_calli_11: 3325503633772308003
+      reverse_transform_calli_0: 3655142990114069118
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

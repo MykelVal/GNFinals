@@ -1,0 +1,735 @@
+fileFormatVersion: 2
+guid: 227ebfb926bfeb140bf0a84250ef084d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1446620244897690855
+    second: panic_ame_0
+  - first:
+      213: 6442563037044300194
+    second: panic_ame_1
+  - first:
+      213: 6421640151662204825
+    second: panic_ame_2
+  - first:
+      213: 3104867811590775774
+    second: panic_ame_3
+  - first:
+      213: -571650341268228231
+    second: panic_ame_4
+  - first:
+      213: 2793592140954835022
+    second: panic_ame_5
+  - first:
+      213: -3085480870725290614
+    second: panic_ame_7
+  - first:
+      213: -1970673835656741960
+    second: panic_ame_9
+  - first:
+      213: -3269853966351883824
+    second: panic_ame_11
+  - first:
+      213: -4456863666640893608
+    second: panic_ame_13
+  - first:
+      213: -1448893080504750386
+    second: panic_ame_15
+  - first:
+      213: -7698825351583823165
+    second: panic_ame_17
+  - first:
+      213: -2407807157475808646
+    second: panic_ame_18
+  - first:
+      213: -2167079991549498046
+    second: panic_ame_19
+  - first:
+      213: 265250003237764008
+    second: panic_ame_20
+  - first:
+      213: -5821692544277102644
+    second: panic_ame_21
+  - first:
+      213: 4630722277279452585
+    second: panic_ame_22
+  - first:
+      213: -5319463957871180793
+    second: panic_ame_23
+  - first:
+      213: -4716640777078131363
+    second: panic_ame_24
+  - first:
+      213: -443016022690837993
+    second: panic_ame_25
+  - first:
+      213: -6228929624100950038
+    second: panic_ame_26
+  - first:
+      213: -1721835526060371953
+    second: panic_ame_27
+  - first:
+      213: -7232832257792971526
+    second: panic_ame_28
+  - first:
+      213: 6314085625556897156
+    second: panic_ame_29
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: panic_ame_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f30eb27d631410800000000000000
+      internalID: 1446620244897690855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a95612b2f4986950800000000000000
+      internalID: 6442563037044300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_2
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9971633d1bf3e1950800000000000000
+      internalID: 6421640151662204825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_3
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 217
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3a96803d4b61b20800000000000000
+      internalID: 3104867811590775774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_4
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 220
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977f9f81b071118f0800000000000000
+      internalID: -571650341268228231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_5
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 0
+        width: 220
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e489fe84045d4c620800000000000000
+      internalID: 2793592140954835022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_7
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f723ee7b2e25d0800000000000000
+      internalID: -3085480870725290614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_9
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbf5896692c6a4e0800000000000000
+      internalID: -1970673835656741960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_11
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1a13c54252f92d0800000000000000
+      internalID: -3269853966351883824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_13
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 0
+        width: 213
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8594681db1a0622c0800000000000000
+      internalID: -4456863666640893608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_15
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece2efa7b6f74ebe0800000000000000
+      internalID: -1448893080504750386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_17
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca03130227482590800000000000000
+      internalID: -7698825351583823165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_18
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 0
+        width: 220
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ae20bb520c59ed0800000000000000
+      internalID: -2407807157475808646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_19
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 0
+        width: 220
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24de5d7ba3cfce1e0800000000000000
+      internalID: -2167079991549498046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_20
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab78abf87b5ea300800000000000000
+      internalID: 265250003237764008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_21
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb2d2c971353fa0800000000000000
+      internalID: -5821692544277102644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_22
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adcab66061a34040800000000000000
+      internalID: 4630722277279452585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_23
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704489bc6b77d26b0800000000000000
+      internalID: -5319463957871180793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_24
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55b22df3302b8eb0800000000000000
+      internalID: -4716640777078131363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_25
+      rect:
+        serializedVersion: 2
+        x: 4759
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ac4b946471ad9f0800000000000000
+      internalID: -443016022690837993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_26
+      rect:
+        serializedVersion: 2
+        x: 5011
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef2e8852856e89a0800000000000000
+      internalID: -6228929624100950038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_27
+      rect:
+        serializedVersion: 2
+        x: 5263
+        y: 0
+        width: 211
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00168336bfca18e0800000000000000
+      internalID: -1721835526060371953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_28
+      rect:
+        serializedVersion: 2
+        x: 5515
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc634af161df9b90800000000000000
+      internalID: -7232832257792971526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panic_ame_29
+      rect:
+        serializedVersion: 2
+        x: 5767
+        y: 0
+        width: 214
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d08b84c6320a750800000000000000
+      internalID: 6314085625556897156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      panic_ame_1: 6442563037044300194
+      panic_ame_25: -443016022690837993
+      panic_ame_20: 265250003237764008
+      panic_ame_28: -7232832257792971526
+      panic_ame_13: -4456863666640893608
+      panic_ame_24: -4716640777078131363
+      panic_ame_26: -6228929624100950038
+      panic_ame_2: 6421640151662204825
+      panic_ame_29: 6314085625556897156
+      panic_ame_21: -5821692544277102644
+      panic_ame_3: 3104867811590775774
+      panic_ame_5: 2793592140954835022
+      panic_ame_17: -7698825351583823165
+      panic_ame_7: -3085480870725290614
+      panic_ame_27: -1721835526060371953
+      panic_ame_15: -1448893080504750386
+      panic_ame_9: -1970673835656741960
+      panic_ame_11: -3269853966351883824
+      panic_ame_23: -5319463957871180793
+      panic_ame_0: 1446620244897690855
+      panic_ame_4: -571650341268228231
+      panic_ame_19: -2167079991549498046
+      panic_ame_18: -2407807157475808646
+      panic_ame_22: 4630722277279452585
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

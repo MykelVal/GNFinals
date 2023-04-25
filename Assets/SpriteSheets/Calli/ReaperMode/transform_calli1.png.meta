@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 70642b868bea91e4bb4fb7ead122937d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1018193020514845839
+    second: transform_calli1_0
+  - first:
+      213: -4857780564358461263
+    second: transform_calli1_1
+  - first:
+      213: -3699427557583701131
+    second: transform_calli1_2
+  - first:
+      213: 7027094396300463133
+    second: transform_calli1_3
+  - first:
+      213: 9211034113190817941
+    second: transform_calli1_4
+  - first:
+      213: -4836905039627984272
+    second: transform_calli1_5
+  - first:
+      213: -4746048586612633913
+    second: transform_calli1_6
+  - first:
+      213: 4872848145510850101
+    second: transform_calli1_7
+  - first:
+      213: -350256400267940738
+    second: transform_calli1_8
+  - first:
+      213: 226047856643370947
+    second: transform_calli1_9
+  - first:
+      213: -8631452792886398751
+    second: transform_calli1_10
+  - first:
+      213: -4210500898248244082
+    second: transform_calli1_11
+  - first:
+      213: 7696833528828032004
+    second: transform_calli1_12
+  - first:
+      213: 608290490709764514
+    second: transform_calli1_13
+  - first:
+      213: -9044402541328122683
+    second: transform_calli1_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transform_calli1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 191
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84c1945829512e00800000000000000
+      internalID: 1018193020514845839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2
+        width: 191
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b80e987052b59cb0800000000000000
+      internalID: -4857780564358461263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2
+        width: 191
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bbeed9c3ef8acc0800000000000000
+      internalID: -3699427557583701131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 13
+        width: 195
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c80ae4f11458160800000000000000
+      internalID: 7027094396300463133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_4
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 13
+        width: 195
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5907eba49ba24df70800000000000000
+      internalID: 9211034113190817941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_5
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 12
+        width: 189
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0726da45e7cdfdcb0800000000000000
+      internalID: -4836905039627984272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_6
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 12
+        width: 189
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce8534c4f5a22eb0800000000000000
+      internalID: -4746048586612633913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_7
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 13
+        width: 195
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e58952295df9340800000000000000
+      internalID: 4872848145510850101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_8
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 13
+        width: 195
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ce8b1e8a3a32bf0800000000000000
+      internalID: -350256400267940738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_9
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 12
+        width: 190
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf6775f355132300800000000000000
+      internalID: 226047856643370947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_10
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 261
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f3709a6be63880800000000000000
+      internalID: -8631452792886398751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_11
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 12
+        width: 190
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e844371cdbb4195c0800000000000000
+      internalID: -4210500898248244082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_12
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 13
+        width: 196
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4047c1d9055a0da60800000000000000
+      internalID: 7696833528828032004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_13
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 13
+        width: 196
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9e00b7af4117800800000000000000
+      internalID: 608290490709764514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transform_calli1_14
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 44
+        width: 166
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc3f76dec3db7280800000000000000
+      internalID: -9044402541328122683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      transform_calli1_2: -3699427557583701131
+      transform_calli1_4: 9211034113190817941
+      transform_calli1_13: 608290490709764514
+      transform_calli1_12: 7696833528828032004
+      transform_calli1_7: 4872848145510850101
+      transform_calli1_6: -4746048586612633913
+      transform_calli1_3: 7027094396300463133
+      transform_calli1_5: -4836905039627984272
+      transform_calli1_10: -8631452792886398751
+      transform_calli1_0: 1018193020514845839
+      transform_calli1_11: -4210500898248244082
+      transform_calli1_14: -9044402541328122683
+      transform_calli1_1: -4857780564358461263
+      transform_calli1_8: -350256400267940738
+      transform_calli1_9: 226047856643370947
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

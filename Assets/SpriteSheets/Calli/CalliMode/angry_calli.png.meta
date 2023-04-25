@@ -1,0 +1,760 @@
+fileFormatVersion: 2
+guid: a3d45258e44a6874f8f23a6013d169dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -747155942988904258
+    second: angry_calli_0
+  - first:
+      213: 8561427912178046020
+    second: angry_calli_1
+  - first:
+      213: -204162464147441927
+    second: angry_calli_2
+  - first:
+      213: 525390207133133725
+    second: angry_calli_3
+  - first:
+      213: 2569810850746014669
+    second: angry_calli_4
+  - first:
+      213: -31633944637683940
+    second: angry_calli_5
+  - first:
+      213: -3172793484923439041
+    second: angry_calli_6
+  - first:
+      213: -6906247277175019359
+    second: angry_calli_7
+  - first:
+      213: 8395726299204401924
+    second: angry_calli_8
+  - first:
+      213: -2881293453423585364
+    second: angry_calli_9
+  - first:
+      213: -3412101299673925823
+    second: angry_calli_10
+  - first:
+      213: -6425978302781717590
+    second: angry_calli_11
+  - first:
+      213: -423353229394790674
+    second: angry_calli_12
+  - first:
+      213: -5024082571773747723
+    second: angry_calli_13
+  - first:
+      213: -4833081801810981894
+    second: angry_calli_14
+  - first:
+      213: -4584920598255949838
+    second: angry_calli_15
+  - first:
+      213: 2166845054725985459
+    second: angry_calli_16
+  - first:
+      213: 7879038719948206256
+    second: angry_calli_17
+  - first:
+      213: 3304386560273755307
+    second: angry_calli_18
+  - first:
+      213: 2926448583618319645
+    second: angry_calli_19
+  - first:
+      213: 8381838040163464983
+    second: angry_calli_20
+  - first:
+      213: -6090749866980204016
+    second: angry_calli_21
+  - first:
+      213: 2832078694534288183
+    second: angry_calli_22
+  - first:
+      213: -2662324352790350337
+    second: angry_calli_23
+  - first:
+      213: -5471712886706217681
+    second: angry_calli_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angry_calli_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb80352e0a191a5f0800000000000000
+      internalID: -747155942988904258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4449c73635d40d670800000000000000
+      internalID: 8561427912178046020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6f500125baa2df0800000000000000
+      internalID: -204162464147441927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ba3a81c9f8a4700800000000000000
+      internalID: 525390207133133725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb19a27a5dc9a320800000000000000
+      internalID: 2569810850746014669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_5
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c60f481d9f8ff0800000000000000
+      internalID: -31633944637683940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_6
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f679b229f7f3d0800000000000000
+      internalID: -3172793484923439041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_7
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a869f831b41820a0800000000000000
+      internalID: -6906247277175019359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_8
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bbb7f269c938470800000000000000
+      internalID: 8395726299204401924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_9
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7570faed69308d0800000000000000
+      internalID: -2881293453423585364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_10
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147794f22f7c5a0d0800000000000000
+      internalID: -3412101299673925823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_11
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa30458a7c652d6a0800000000000000
+      internalID: -6425978302781717590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_12
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6b86b1b72ff1af0800000000000000
+      internalID: -423353229394790674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_13
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdd13b058fd64ab0800000000000000
+      internalID: -5024082571773747723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_14
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbc6a045b17decb0800000000000000
+      internalID: -4833081801810981894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_15
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7259102071f50c0800000000000000
+      internalID: -4584920598255949838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_16
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4114ac81e221e10800000000000000
+      internalID: 2166845054725985459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_17
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0bf0a88f7f75d60800000000000000
+      internalID: 7879038719948206256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_18
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac21b5b11a8bdd20800000000000000
+      internalID: 3304386560273755307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_19
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15d3085b75dc9820800000000000000
+      internalID: 2926448583618319645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_20
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717bcc4e945425470800000000000000
+      internalID: 8381838040163464983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_21
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01223e2244f497ba0800000000000000
+      internalID: -6090749866980204016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_22
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7331ba351909d4720800000000000000
+      internalID: 2832078694534288183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_23
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff53f035b168d0bd0800000000000000
+      internalID: -2662324352790350337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_calli_24
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 0
+        width: 205
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dd2f2be129014b0800000000000000
+      internalID: -5471712886706217681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      angry_calli_0: -747155942988904258
+      angry_calli_20: 8381838040163464983
+      angry_calli_2: -204162464147441927
+      angry_calli_18: 3304386560273755307
+      angry_calli_10: -3412101299673925823
+      angry_calli_19: 2926448583618319645
+      angry_calli_5: -31633944637683940
+      angry_calli_1: 8561427912178046020
+      angry_calli_16: 2166845054725985459
+      angry_calli_7: -6906247277175019359
+      angry_calli_6: -3172793484923439041
+      angry_calli_9: -2881293453423585364
+      angry_calli_21: -6090749866980204016
+      angry_calli_22: 2832078694534288183
+      angry_calli_12: -423353229394790674
+      angry_calli_3: 525390207133133725
+      angry_calli_4: 2569810850746014669
+      angry_calli_14: -4833081801810981894
+      angry_calli_13: -5024082571773747723
+      angry_calli_17: 7879038719948206256
+      angry_calli_11: -6425978302781717590
+      angry_calli_8: 8395726299204401924
+      angry_calli_15: -4584920598255949838
+      angry_calli_24: -5471712886706217681
+      angry_calli_23: -2662324352790350337
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
