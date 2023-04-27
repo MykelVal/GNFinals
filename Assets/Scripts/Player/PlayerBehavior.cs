@@ -40,7 +40,37 @@ public class PlayerBehavior : PlayerLives
     {
         base.Update();
         Jumping();
+        if (CanMove)
+        {
+            Movement();
+        }
     }
+
+    void PlayerMovement()
+    {
+        float horizontal = Input.GetAxis("Horizontal");
+        float horizontalMovement = PlayerSpeed * Time.deltaTime * horizontal;
+        transform.Translate(horizontalMovement, 0, 0);
+    }
+    void Movement()
+    {
+        if (Input.GetKey(RightWalkBtn))
+        {
+            PlayerMovement();
+            Walking = 1;
+        }
+        else if (Input.GetKey(LeftWalkBtn))
+        {
+            PlayerMovement();
+            Walking = 2;
+        }
+        else
+        {
+            Walking = 0;
+        }
+        PlayerAnimator.SetFloat("Walking", Walking);
+    }
+
     //Jumping
     void Jumping()
     {
