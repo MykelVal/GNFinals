@@ -12,7 +12,6 @@ public class PlayerBehavior : PlayerLives
     [SerializeField] private KeyCode leftWalkBtn;
     [SerializeField] private KeyCode rightWalkBtn;
     [SerializeField] private KeyCode jumpBtn;
-    [SerializeField] private KeyCode skillBtn;
     [Header("Player Attributes")]
     [SerializeField] private float playerSpeed = 2;
     [SerializeField] private float jumpHeight = 4.5f;
@@ -26,7 +25,6 @@ public class PlayerBehavior : PlayerLives
     public KeyCode LeftWalkBtn { get => leftWalkBtn; set => leftWalkBtn = value; }
     public KeyCode RightWalkBtn { get => rightWalkBtn; set => rightWalkBtn = value; }
     public float PlayerSpeed { get => playerSpeed; set => playerSpeed = value; }
-    public KeyCode SkillBtn { get => skillBtn; set => skillBtn = value; }
     public bool CanJump { get => canJump; set => canJump = value; }
 
     // Start is called before the first frame update
