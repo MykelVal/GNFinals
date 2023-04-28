@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
   DevAccountEmail: mikmik.valencia@yahoo.com
-  DevAccountToken: 61fktm8hktgh8n13smaj8ou3zuapcp3ajfftfmmx4ijkuukf4rb1rayd71g4sag3g68wh1iaxdkyepw14bkjbkqn5gn3rbinuwjpaowmnizqxcrh1snde6knrgzixjjacf4wa7q3w5rn7p45w8eo7kfxcee9kxte48ka1tcbtr4oe8thg3qh35w33t3eskwucic9rqdk
-  SelectedStudio: 
-  SdkPath: 
+  DevAccountToken: m8jfi1c48sy7gzrqy184zqa6ykqygje5e3ff7c53di7hmmkdhx5nzphu9ebasxui9p36bgp7exb7c4nowtzk11qbdyws3pww9w1snntpbtg7kmkbx5n98q1uijg3nw171bnssnbkiu7gic4zh63dksogchpppb4ngogc4axa51kysooa1o18h9yt9hnjanqs6ebs7wqz
+  SelectedStudio: GNFinals
+  SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
-  PanelIsShown: 1
+  PanelIsShown: 0
   curMainMenuIdx: 0
   curSubMenuIdx: 0
