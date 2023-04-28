@@ -54,7 +54,7 @@ public class AuthenticationManager : MonoBehaviour
                         Debug.LogError("Info Result Payload is null");
                     }
                     PhotonNetwork.NickName = userName;
-                    SceneManager.LoadScene("PunBasics-Launcher"); //load next scene after logging in with valid credentials
+                    SceneManager.LoadScene(1); //load next scene after logging in with valid credentials
                 }, (error) => {
                     Debug.LogError($"Failed to login: {error.ErrorMessage}");
                 }

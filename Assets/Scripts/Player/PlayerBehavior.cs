@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class PlayerBehavior : PlayerLives
 {
@@ -37,10 +38,13 @@ public class PlayerBehavior : PlayerLives
     public virtual void Update()
     {
         base.Update();
-        Jumping();
-        if (CanMove)
+        if (!photonView.IsMine)
         {
-            Movement();
+            Jumping();
+            if (CanMove)
+            {
+                Movement();
+            }
         }
     }
 
