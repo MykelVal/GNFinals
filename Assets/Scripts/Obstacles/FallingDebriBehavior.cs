@@ -18,5 +18,13 @@ public class FallingDebriBehavior : ObstacleBehaviour
         GameObject g = Instantiate(debriPrefab, debriFallingPOS.position, Quaternion.identity);
         Destroy(g, 1.1f);
     }
+
+    private void OnTriggerEnter2D(Collider2D c)
+    {
+        if (c.gameObject.CompareTag("Ground") || c.gameObject.CompareTag("Pillar"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
     
