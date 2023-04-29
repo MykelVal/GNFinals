@@ -12,16 +12,16 @@ public class CreateRoomPanel : MonoBehaviour
     [SerializeField] private TMP_InputField _roomName;
     [SerializeField] private Button _createBtn;
 
-    /*private void OnEnable()
+    private void OnEnable()
     {
         _createBtn.onClick.AddListener(CreateRoom);        
-    }*/
+    }
 
-    /*private void OnDisable()
+    private void OnDisable()
     {
         _roomName.text = "";
         _createBtn.onClick.RemoveAllListeners();
-    }*/
+    }
 
     private void CreateRoom()
     {

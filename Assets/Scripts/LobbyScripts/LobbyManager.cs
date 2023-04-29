@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+﻿				// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="Launcher.cs" company="Exit Games GmbH">
 //   Part of: Photon Unity Networking Demos
 // </copyright>
@@ -81,9 +81,9 @@ namespace Photon.Pun.Demo.PunBasics
 
 		private void Start()
 		{
-			_lobbyContainerParent.gameObject.SetActive(false);	
+			/*_lobbyContainerParent.gameObject.SetActive(false);	
 			_createRoomPanel.gameObject.SetActive(false);
-			_inRoomPanel.gameObject.SetActive(false);
+			_inRoomPanel.gameObject.SetActive(false);*/
 			
 			_roomContainerList = new List<RoomInfoContainer>();
 			for (var i = 0; i < 20; i++)
