@@ -132,7 +132,7 @@ public class AuthenticationManager : MonoBehaviour
     {
         Debug.Log("Player logged in successfully!");
 
-        // Trigger other events or perform actions here
+        SceneManager.LoadScene(1);
     }
 
 }
