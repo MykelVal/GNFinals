@@ -1178,13 +1178,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44237d1dc0f4f543bd76e604a6c05eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlPanel: {fileID: 0}
   feedbackText: {fileID: 0}
   maxPlayersPerRoom: 2
-  _roomStatistics: {fileID: 0}
+  _roomStatistics: {fileID: 2093878068}
   _roomContainerPrefab: {fileID: 1206578697457041796, guid: 5b8e2229686c0ad489c7a55649a1f8a7, type: 3}
   _roomContainerList: []
-  _lobbyContainerParent: {fileID: 827783919}
+  _lobbyContainerParent: {fileID: 2097990767}
   _createRoomPanel: {fileID: 2051327035}
   _inRoomPanel: {fileID: 1662700921}
 --- !u!1 &316605315
@@ -2614,6 +2613,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 309021971}
+        m_TargetAssemblyTypeName: Photon.Pun.Demo.PunBasics.LobbyManager, Assembly-CSharp
+        m_MethodName: Connect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1307044932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3489,7 +3500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1662700920
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4180,7 +4191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2051327034
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4543,7 +4554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2097990767
 RectTransform:
   m_ObjectHideFlags: 0

@@ -19,6 +19,8 @@ using Photon.Realtime;
 using PlayFab;
 using PlayFab.ClientModels;
 
+using TMPro;
+
 namespace Photon.Pun.Demo.PunBasics
 {
 	#pragma warning disable 649
@@ -31,9 +33,9 @@ namespace Photon.Pun.Demo.PunBasics
 
 		#region Private Serializable Fields
 
-		[Tooltip("The Ui Panel to let the user enter name, connect and play")]
+		/*[Tooltip("The Ui Panel to let the user enter name, connect and play")]
 		[SerializeField]
-		private GameObject controlPanel;
+		private GameObject controlPanel;*/
 
 		[Tooltip("The Ui Text to inform the user about the connection progress")]
 		[SerializeField]
@@ -43,7 +45,7 @@ namespace Photon.Pun.Demo.PunBasics
 		[SerializeField]
 		private byte maxPlayersPerRoom = 4;
 
-		[SerializeField] private Text _roomStatistics;
+		[SerializeField] private TextMeshProUGUI _roomStatistics;
 		[SerializeField] private RoomInfoContainer _roomContainerPrefab;
 		[SerializeField] private List<RoomInfoContainer> _roomContainerList;
 		[SerializeField] private Transform _lobbyContainerParent;
@@ -92,8 +94,6 @@ namespace Photon.Pun.Demo.PunBasics
 				_roomContainerList.Add(container);
 				container.gameObject.SetActive(false);
 			}
-			
-			Connect();
 		}
 
 		#endregion
@@ -116,7 +116,7 @@ namespace Photon.Pun.Demo.PunBasics
 			isConnecting = true;
 
 			// hide the Play button for visual consistency
-			controlPanel.SetActive(false);
+			//controlPanel.SetActive(false);
 
 			// we check if we are connected or not, we join if we are , else we initiate the connection to the server.
 			if (PhotonNetwork.IsConnected)
@@ -211,7 +211,7 @@ namespace Photon.Pun.Demo.PunBasics
 			Debug.LogError("PUN Basics Tutorial/Launcher:Disconnected");
 
 			isConnecting = false;
-			controlPanel.SetActive(true);
+			//controlPanel.SetActive(true);
 
 		}
         #endregion
@@ -251,6 +251,7 @@ namespace Photon.Pun.Demo.PunBasics
 
         public override void OnJoinedRoom()
         {
+			Debug.Log("Joimed a room");
 	        _lobbyContainerParent.gameObject.SetActive(false);
 	        _createRoomPanel.gameObject.SetActive(false);
 	        _inRoomPanel.gameObject.SetActive(true);
@@ -269,7 +270,8 @@ namespace Photon.Pun.Demo.PunBasics
         {
 	        _lobbyContainerParent.gameObject.SetActive(false);
 	        _createRoomPanel.gameObject.SetActive(false);
-	        UpdateRoomStatistics();
+			_inRoomPanel.gameObject.SetActive(true);
+			UpdateRoomStatistics();
         }
 
         #endregion
@@ -298,7 +300,7 @@ namespace Photon.Pun.Demo.PunBasics
 			_roomStatistics.text =
 				$"Name: {currentRoom.Name} \n  {currentRoom.PlayerCount}/{currentRoom.MaxPlayers} \n";
 			
-			List<float> winRates = new List<float>();
+			/*List<float> winRates = new List<float>();
 
 			foreach (var player in PhotonNetwork.CurrentRoom.Players)
 			{
@@ -317,7 +319,7 @@ namespace Photon.Pun.Demo.PunBasics
 			
 			var properties = new ExitGames.Client.Photon.Hashtable();
 			properties.Add("AverageWinRate",average);
-			PhotonNetwork.CurrentRoom.SetCustomProperties(properties);
+			//PhotonNetwork.CurrentRoom.SetCustomProperties(properties);*/
 
 
 
