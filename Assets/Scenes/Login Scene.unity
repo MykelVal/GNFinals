@@ -460,8 +460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd15b38ffee2964e919236080adae82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _egAmount: 0
-  _goAmount: 0
+  energy: 0
+  goldGears: 0
+  energyValueText: {fileID: 0}
+  goldGearsValueText: {fileID: 0}
 --- !u!4 &237696763
 Transform:
   m_ObjectHideFlags: 0
@@ -4770,7 +4772,7 @@ MonoBehaviour:
     GetTitleData: 0
     GetUserAccountInfo: 1
     GetUserData: 0
-    GetUserInventory: 1
+    GetUserInventory: 0
     GetUserReadOnlyData: 0
     GetUserVirtualCurrency: 1
     PlayerStatisticNames: []
