@@ -571,6 +571,8 @@ MonoBehaviour:
   aboutGroup: {fileID: 0}
   exitGroup: {fileID: 0}
   pauseGroup: {fileID: 2076737630}
+  lobbyGroup: {fileID: 0}
+  roomGroup: {fileID: 0}
 --- !u!4 &183778656
 Transform:
   m_ObjectHideFlags: 0
@@ -619,9 +621,9 @@ Transform:
   - {fileID: 1862145299}
   - {fileID: 1117489453}
   - {fileID: 1519258064}
-  - {fileID: 833470213}
   - {fileID: 514049715}
   - {fileID: 1900707887}
+  - {fileID: 833470213}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5580,6 +5582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6562209788052427295, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
 --- !u!4 &1552669370 stripped
@@ -7263,6 +7269,10 @@ PrefabInstance:
     - target: {fileID: 6562209788052427295, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
       propertyPath: m_Name
       value: Pillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562209788052427295, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}

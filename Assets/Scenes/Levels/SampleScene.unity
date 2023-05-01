@@ -633,6 +633,8 @@ MonoBehaviour:
   aboutGroup: {fileID: 0}
   exitGroup: {fileID: 0}
   pauseGroup: {fileID: 2076737630}
+  lobbyGroup: {fileID: 0}
+  roomGroup: {fileID: 0}
 --- !u!4 &183778656
 Transform:
   m_ObjectHideFlags: 0
@@ -2808,11 +2810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.88
+      value: 5.35
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.87
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4861,7 +4863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8297675
+      value: 0.7386591
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalScale.y
@@ -4873,7 +4875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6245
+      value: -1.1168
       objectReference: {fileID: 0}
     - target: {fileID: 7843278313802082920, guid: 1152798e2bef77140bec99a609c1b347, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6953,6 +6955,10 @@ PrefabInstance:
     - target: {fileID: 6562209788052427295, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
       propertyPath: m_Name
       value: Pillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562209788052427295, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bb3f91da4cf9ae4d8bd6883fcc76975, type: 3}
