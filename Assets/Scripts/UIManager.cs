@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject mainMenuGroup, aboutGroup, exitGroup, pauseGroup;
+    public GameObject mainMenuGroup, aboutGroup, exitGroup, pauseGroup, lobbyGroup, roomGroup;
     void Start()
     {
      
@@ -19,7 +19,14 @@ public class UIManager : MonoBehaviour
     //MainMenu Scene
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        mainMenuGroup.SetActive(false);
+        lobbyGroup.SetActive(true);
+    }
+
+    public void JoinRoom()
+    {
+        lobbyGroup.SetActive(false);
+        roomGroup.SetActive(true);
     }
 
     public void AboutButton()

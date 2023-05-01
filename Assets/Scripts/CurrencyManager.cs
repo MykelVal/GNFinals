@@ -4,21 +4,25 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CurrencyManager : MonoBehaviour
 {
-    public int _egAmount;
-    public int _goAmount;
+    public int energy;
+    public int goldGears;
+
+    public TextMeshProUGUI energyValueText;
+    public TextMeshProUGUI goldGearsValueText;
 
     public void Init(string currencyCode, int balance)
     {
         switch (currencyCode)
         {
-            case "GO":
-                _goAmount = balance;
+            case "GG":
+                goldGears = balance;
                 break;
-            case "EG":
-                _egAmount = balance;
+            case "EN":
+                energy = balance;
                 break;
         }
 
@@ -29,11 +33,11 @@ public class CurrencyManager : MonoBehaviour
         GetCurrencyBalances();
     }
 
-    /*private void Update()
+    private void Update()
     {
         // Get the current player's currency balances from PlayFab
         GetCurrencyBalances();
-    }*/
+    }
 
     public void GetCurrencyBalances()
     {
@@ -44,8 +48,11 @@ public class CurrencyManager : MonoBehaviour
     private void OnGetCurrencyBalances(GetUserInventoryResult result)
     {
         // Update the local currency balances
-        _egAmount = result.VirtualCurrency["EG"];
-        _goAmount = result.VirtualCurrency["GO"];
+        energy = result.VirtualCurrency["EN"];
+        energyValueText.text = energy.ToString();
+
+        goldGears = result.VirtualCurrency["GG"];
+        goldGearsValueText.text = energy.ToString();
     }
 
     public void AddCurrency(VirtualCurrency virtualCurrency, int amountToAdd)
@@ -70,14 +77,14 @@ public class CurrencyManager : MonoBehaviour
     {
         switch (result.VirtualCurrency)
         {
-            case "GO":
+            case "GG":
 
-                _goAmount = result.Balance;
-                Debug.Log($"GO:{_goAmount}");
+                goldGears = result.Balance;
+                Debug.Log($"GG:{goldGears}");
                 break;
-            case "EG":
-                _egAmount = result.Balance;
-                Debug.Log($"EG:{_egAmount}");
+            case "EN":
+                energy = result.Balance;
+                Debug.Log($"EN:{energy}");
                 break;
         }
 
@@ -86,8 +93,8 @@ public class CurrencyManager : MonoBehaviour
     public bool HasEnoughEnergy(int amount)
     {
         // Check if the player has enough energy to play
-        Debug.Log($"EG: {_egAmount}, Required: {amount} ");
-        return _egAmount >= amount;
+        Debug.Log($"EN: {energy}, Required: {amount} ");
+        return energy >= amount;
     }
 
     private void OnFailedModifyCurrency(PlayFabError error)
@@ -97,14 +104,14 @@ public class CurrencyManager : MonoBehaviour
 
     public enum VirtualCurrency
     {
-        EG,
-        GO
+        EN,
+        GG
     }
 
     [ContextMenu("Test Add and Subtract")]
     public void TestSubtract()
     {
-        AddCurrency(VirtualCurrency.GO, 1000);
-        SubtractCurrency(VirtualCurrency.EG, 1);
+        AddCurrency(VirtualCurrency.GG, 1000);
+        SubtractCurrency(VirtualCurrency.EN, 1);
     }
 }
