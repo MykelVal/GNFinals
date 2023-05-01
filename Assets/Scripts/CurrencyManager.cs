@@ -35,8 +35,6 @@ public class CurrencyManager : MonoBehaviour
 
     private void Update()
     {
-        // Get the current player's currency balances from PlayFab
-        GetCurrencyBalances();
     }
 
     public void GetCurrencyBalances()

@@ -97,7 +97,7 @@ public class PlayerBehavior : PlayerLives
     }
     private void OnCollisionEnter2D(Collision2D c)
     {
-        if (c.gameObject.CompareTag("Ground") || c.gameObject.CompareTag("Ame Variant")) 
+        if (c.gameObject.CompareTag("Ground")) 
         {
             jumps = 0;
             isJumping = false;

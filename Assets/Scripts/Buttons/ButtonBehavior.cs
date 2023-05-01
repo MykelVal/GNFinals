@@ -9,7 +9,7 @@ public class ButtonBehavior : MonoBehaviour
     [SerializeField] private Sprite btnPressed;
     [SerializeField] private Sprite btnNotPressed;
 
-    [SerializeField] private bool isToggle = false;
+    [SerializeField] private bool _isToggle = false;
     private bool _isPressed = false;
 
     private void OnCollisionEnter2D(Collision2D c)
@@ -23,7 +23,7 @@ public class ButtonBehavior : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D c)
     {
-        if (isToggle)
+        if (isToggle())
         {
             return;
         }
@@ -37,5 +37,10 @@ public class ButtonBehavior : MonoBehaviour
     public bool isPressed()
     {
         return _isPressed;
+    }
+
+    public bool isToggle()
+    {
+        return _isToggle;
     }
 }

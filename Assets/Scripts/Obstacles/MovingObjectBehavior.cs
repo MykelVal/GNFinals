@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingObjectBehavior : MonoBehaviour
 {
-    [Header("BtnPressedWallDown")]
+    [Header("Moving Object Fields")]
     [SerializeField] private Transform objectToMove;
     [SerializeField] private float speed = 1;
     [SerializeField] private Transform endPositionOnA;
@@ -12,6 +12,8 @@ public class MovingObjectBehavior : MonoBehaviour
 
     [Header("Activator Button")]
     [SerializeField] private ButtonBehavior button;
+
+    [SerializeField] private bool isPlatform = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,13 +27,38 @@ public class MovingObjectBehavior : MonoBehaviour
     }
     void BtnPressedWallDown()
     {
-        if (button.isPressed())
+        if (button.isToggle())
         {
-            if (objectToMove.position == endPositionOnA.position)
+            if (button.isPressed())
             {
                 objectToMove.position = Vector3.MoveTowards(objectToMove.position, endPositionOnB.position, speed * Time.deltaTime);
             }
-            
+        }
+        else
+        {
+            if (button.isPressed())
+            {
+                objectToMove.position = Vector3.MoveTowards(objectToMove.position, endPositionOnB.position, speed * Time.deltaTime);
+            }
+            else
+            {
+                objectToMove.position = Vector3.MoveTowards(objectToMove.position, endPositionOnA.position, speed * Time.deltaTime);
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D c)
+    {
+        if (c.CompareTag("Player") && isPlatform)
+        {
+            c.transform.parent = this.transform;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D c)
+    {
+        if (c.CompareTag("Player") && isPlatform)
+        {
+            c.transform.parent = null;
         }
     }
 }
