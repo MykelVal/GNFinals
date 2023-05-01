@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6545015514890788065}
   - component: {fileID: 6545015514890788094}
   - component: {fileID: 7683969933604107742}
-  - component: {fileID: 6545015514890788066}
   m_Layer: 0
   m_Name: button1
   m_TagString: Untagged
@@ -227,30 +226,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463e2acb8b98ba544b51baae64f03f7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonNotPressedCollider: {fileID: 6545015514890788093}
-  buttonPressedCollider: {fileID: 6545015514890788093}
   btnRenderer: {fileID: 6545015514890788092}
   btnPressed: {fileID: 21300000, guid: 80d7782d50dc0c544b5a89574213ba01, type: 3}
   btnNotPressed: {fileID: 21300000, guid: 369a7f15683f2c84190318c484e74edf, type: 3}
---- !u!114 &6545015514890788066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6545015514890788095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37fac216be74b2440bd9194c8d0b9a68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonNotPressedCollider: {fileID: 6545015514890788093}
-  buttonPressedCollider: {fileID: 6545015514890788065}
-  btnRenderer: {fileID: 6545015514890788092}
-  btnPressed: {fileID: 21300000, guid: 80d7782d50dc0c544b5a89574213ba01, type: 3}
-  btnNotPressed: {fileID: 21300000, guid: 369a7f15683f2c84190318c484e74edf, type: 3}
-  fence1: {fileID: 0}
-  fence2: {fileID: 0}
+  _isToggle: 0
 --- !u!1 &6545015515401489412
 GameObject:
   m_ObjectHideFlags: 0

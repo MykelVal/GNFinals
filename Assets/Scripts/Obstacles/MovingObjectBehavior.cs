@@ -13,11 +13,8 @@ public class MovingObjectBehavior : MonoBehaviour
     [Header("Activator Button")]
     [SerializeField] private ButtonBehavior button;
 
-<<<<<<< Updated upstream
     [SerializeField] private bool isPlatform = false;
     // Start is called before the first frame update
-=======
->>>>>>> Stashed changes
     void Start()
     {
 
@@ -37,7 +34,6 @@ public class MovingObjectBehavior : MonoBehaviour
     {
         if (button.isToggle())
         {
-<<<<<<< Updated upstream
             if (button.isPressed())
             {
                 objectToMove.position = Vector3.MoveTowards(objectToMove.position, endPositionOnB.position, speed * Time.deltaTime);
@@ -68,14 +64,12 @@ public class MovingObjectBehavior : MonoBehaviour
         if (c.CompareTag("Player") && isPlatform)
         {
             c.transform.parent = null;
-=======
             objectToMove.position = Vector3.MoveTowards(objectToMove.position, endPositionOnB.position, speed * Time.deltaTime);
         }
 
         else 
         {
             objectToMove.position = Vector3.MoveTowards(objectToMove.position, endPositionOnA.position, speed * Time.deltaTime);
->>>>>>> Stashed changes
         }
     }
 }
