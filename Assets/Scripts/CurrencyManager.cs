@@ -8,6 +8,8 @@ using TMPro;
 
 public class CurrencyManager : MonoBehaviour
 {
+    public static CurrencyManager instance;
+
     public int energy;
     public int goldGears;
 
