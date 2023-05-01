@@ -45,6 +45,10 @@ namespace Photon.Pun.Demo.PunBasics
 		[SerializeField]
 		private byte maxPlayersPerRoom = 4;
 
+		[SerializeField] private TextMeshProUGUI _playerInfoPrefab;
+		[SerializeField] private Transform _playerListParent;
+		[SerializeField] private List<TextMeshProUGUI> _playerNameList;
+
 		[SerializeField] private TextMeshProUGUI _roomStatistics;
 		[SerializeField] private RoomInfoContainer _roomContainerPrefab;
 		[SerializeField] private List<RoomInfoContainer> _roomContainerList;
@@ -94,6 +98,8 @@ namespace Photon.Pun.Demo.PunBasics
 				_roomContainerList.Add(container);
 				container.gameObject.SetActive(false);
 			}
+
+			_playerNameList = new List<TextMeshProUGUI>();
 		}
 
 		#endregion
@@ -254,9 +260,15 @@ namespace Photon.Pun.Demo.PunBasics
 			Debug.Log("Joimed a room");
 	        _lobbyContainerParent.gameObject.SetActive(false);
 	        _createRoomPanel.gameObject.SetActive(false);
-	        _inRoomPanel.gameObject.SetActive(true);
-	        UpdateRoomStatistics();
-        }
+			_inRoomPanel.transform.parent.gameObject.SetActive(true);
+			UpdateRoomStatistics();
+			foreach (Player player in PhotonNetwork.PlayerList)
+			{
+				TextMeshProUGUI newPlayerName = Instantiate(_playerInfoPrefab, _playerListParent);
+				newPlayerName.text = $"{player.ActorNumber} | {player.NickName} | {player.UserId}";
+				_playerNameList.Add(newPlayerName);
+			}
+		}
 
         public override void OnLeftRoom()
         {
@@ -270,7 +282,7 @@ namespace Photon.Pun.Demo.PunBasics
         {
 	        _lobbyContainerParent.gameObject.SetActive(false);
 	        _createRoomPanel.gameObject.SetActive(false);
-			_inRoomPanel.gameObject.SetActive(true);
+			_inRoomPanel.transform.parent.gameObject.SetActive(true);
 			UpdateRoomStatistics();
         }
 
@@ -280,12 +292,21 @@ namespace Photon.Pun.Demo.PunBasics
 
 		public override void OnPlayerEnteredRoom(Player newPlayer)
 		{
-			UpdateRoomStatistics();	
+			UpdateRoomStatistics();
+			TextMeshProUGUI newPlayerName = Instantiate(_playerInfoPrefab, _playerListParent);
+			newPlayerName.text = $"{newPlayer.ActorNumber} | {newPlayer.NickName} | {newPlayer.UserId}";
+			_playerNameList.Add(newPlayerName);
 		}
 
 		public override void OnPlayerLeftRoom(Player otherPlayer)
 		{
 			UpdateRoomStatistics();
+			int index = _playerNameList.FindIndex(x => x.text == $"{otherPlayer.ActorNumber} | {otherPlayer.NickName} | {otherPlayer.UserId}");
+			if (index != -1)
+			{
+				Destroy(_playerNameList[index].gameObject);
+				_playerNameList.RemoveAt(index);
+			}
 		}
 		
 		private void UpdateRoomStatistics()
@@ -295,11 +316,20 @@ namespace Photon.Pun.Demo.PunBasics
 			{
 				_roomStatistics.text = "";
 				return;
-			}
-			
+            }
+
 			_roomStatistics.text =
-				$"Name: {currentRoom.Name} \n  {currentRoom.PlayerCount}/{currentRoom.MaxPlayers} \n";
-			
+				$"Name: {currentRoom.Name} \n  " +
+				$"{currentRoom.PlayerCount}/{currentRoom.MaxPlayers} \n";
+
+			foreach (Player player in PhotonNetwork.PlayerList)
+			{
+				// Display the player's name, actor number, and user ID
+				Debug.Log("Player Name: " + player.NickName);
+				Debug.Log("Actor Number: " + player.ActorNumber);
+				Debug.Log("User ID: " + player.UserId);
+			}
+
 			/*List<float> winRates = new List<float>();
 
 			foreach (var player in PhotonNetwork.CurrentRoom.Players)
@@ -325,7 +355,7 @@ namespace Photon.Pun.Demo.PunBasics
 
 		}
 
-		#endregion
-		
-	}
+        #endregion
+
+    }
 }

@@ -17,6 +17,7 @@ public class PlayerBehavior : PlayerLives
     [SerializeField] private float playerSpeed = 2;
     [SerializeField] private float jumpHeight = 4.5f;
     [SerializeField] private int maxNumOfJumps;
+    [SerializeField] private PhotonView pv;
     private int jumps;
     private bool isJumping = false;
     private bool canJump = true;
@@ -38,13 +39,14 @@ public class PlayerBehavior : PlayerLives
     public virtual void Update()
     {
         base.Update();
-        if (!photonView.IsMine)
+        if (pv.IsMine)
         {
             Jumping();
             if (CanMove)
             {
                 Movement();
             }
+            pv.RPC("UpdateLocation", RpcTarget.OthersBuffered, transform.position, transform.rotation);
         }
     }
 
@@ -85,6 +87,13 @@ public class PlayerBehavior : PlayerLives
                 gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
             }
         }
+    }
+
+    [PunRPC]
+    private void UpdateLocation(Vector3 position, Quaternion rotation)
+    {
+        transform.position = position;
+        transform.rotation = rotation;
     }
     private void OnCollisionEnter2D(Collision2D c)
     {

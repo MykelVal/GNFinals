@@ -16,9 +16,11 @@ public class RoomInfoContainer : MonoBehaviour
 
     public void UpdateRoomInfo(RoomInfo info)
     {
-        info.CustomProperties.TryGetValue("AverageWinRate", out var winRate);
+        /*info.CustomProperties.TryGetValue("AverageWinRate", out var winRate);
         var floatWinRate = (float) winRate;
-        _roomStats.text = $"{info.Name} | {info.PlayerCount}/{info.MaxPlayers} | {floatWinRate}%";
+        _roomStats.text = $"{info.Name} | {info.PlayerCount}/{info.MaxPlayers} | {floatWinRate}%";*/
+
+        _roomStats.text = $"{info.Name} | {info.PlayerCount}/{info.MaxPlayers}";
         _connectBtn.onClick.RemoveAllListeners();
         _connectBtn.onClick.AddListener(() => { PhotonNetwork.JoinRoom(info.Name); });
     }

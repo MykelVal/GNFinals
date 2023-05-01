@@ -30,9 +30,9 @@ public class PlayerLives : MonoBehaviourPun
     // Update is called once per frame
     public virtual void Update()
     {
-        PlayerDamagedByEnemy();
+        //PlayerDamagedByEnemy();
     }
-    void PlayerDamagedByEnemy()
+    /*void PlayerDamagedByEnemy()
     {
         if (playerLifeCount < 3)
         {
@@ -50,7 +50,7 @@ public class PlayerLives : MonoBehaviourPun
             canMove = false;
             SceneManager.LoadScene(3);
         }
-    }
+    }*/
     private void OnTriggerStay2D(Collider2D c)
     {
         if (!playerIsInvincible)

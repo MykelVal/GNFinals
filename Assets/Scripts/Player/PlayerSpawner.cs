@@ -7,20 +7,29 @@ public class PlayerSpawner : MonoBehaviourPun
 {
     [SerializeField] private Transform[] _spawnLocations;
     [SerializeField] private GameObject _playerPrefab;
-    private int _spawnPointIndex;
 
     // Start is called before the first frame update
     void Start()
     {
-        _spawnPointIndex = Random.Range(0, _spawnLocations.Length);
-        Vector3 spawnPosition = _spawnLocations[_spawnPointIndex].position;
-        Quaternion spawnRotation = _spawnLocations[_spawnPointIndex].rotation;
 
-        PhotonNetwork.Instantiate("Characters/Player", spawnPosition, spawnRotation);
+        if (PhotonNetwork.LocalPlayer.ActorNumber == 1)
+        {
+            Vector3 spawnPosition = _spawnLocations[0].position;
+            Quaternion spawnRotation = _spawnLocations[0].rotation;
+
+            PhotonNetwork.Instantiate("Characters/Player", spawnPosition, spawnRotation);
+        }
+        if (PhotonNetwork.LocalPlayer.ActorNumber == 2)
+        {
+            Vector3 spawnPosition = _spawnLocations[1].position;
+            Quaternion spawnRotation = _spawnLocations[1].rotation;
+
+            PhotonNetwork.Instantiate("Characters/Player", spawnPosition, spawnRotation);
+        }
     }
 
     public void Respawn(Transform playerLocation)
     {
-        playerLocation.position = _spawnLocations[_spawnPointIndex].position;
+        //playerLocation.position = _spawnLocations[_spawnPointIndex].position;
     }
 }
